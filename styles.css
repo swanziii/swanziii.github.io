@@ -1,0 +1,209 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+/* Styling the About Me section */
+#about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 24px;
+}
+
+#about p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Styling the Portfolio section */
+#portfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+
+.portfolio-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Styling the Contact section */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact form textarea {
+    resize: none;
+}
+
+#contact form input[type="submit"] {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact form input[type="submit"]:hover {
+    background-color: #f44336;
+}
+
+/* Styling the Footer section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* Styling the Footer section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Styling the social media icons */
+.social-icon {
+    font-size: 24px;
+}
+/* Styling for the image above the contact form */
+#imageCarousel {
+    max-height: 50vh;
+}
+
+#imageCarousel img {
+    max-height: 50vh; /* Adjust the height as needed */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centering the image within its container */
+.container .row .col-md-6.text-center img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Additional styling for the contact form (optional) */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 24px;
+}
+
+#contact .form-group {
+    margin-bottom: 20px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #f44336;
+}
+
+#contact p {
+    font-size: 16px;
+    margin-top: 20px;
+}
